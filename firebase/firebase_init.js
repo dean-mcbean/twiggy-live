@@ -26,3 +26,9 @@ console.log(app);
 
 // Initialize Cloud Firestore and get a reference to the service
 const db = getFirestore(app);
+
+
+// Manually Require both Firebase & Firestore
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
