@@ -1,6 +1,6 @@
-import { initializeApp } from './node_module/firebase/app';
-import { getFirestore, collection, getDocs } from '/node_module/firebase/firestore/lite';
-import { getAnalytics } from "/firebase/analytics";
+import { initializeApp } from '/node_modules/firebase/app';
+import { getFirestore, collection, getDocs } from '/node_modules/firebase/firestore/lite';
+import { getAnalytics } from "/node_modules/firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
