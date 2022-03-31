@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Hi</title>
+        <title>Twiggy.live</title>
         <link rel="stylesheet" href="styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
