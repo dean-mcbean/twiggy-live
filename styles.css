@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+table {
+    border-spacing: 0;
+}
+
+
+
+
+
+
+#page-table {
+    width: 100%;
+    height: 100%;
+}
+#page-table td {
+    width: 100%;
+}
+#page-header-td {
+    padding: 1rem;
+    text-align: center;
+    background-color: #EEE;
+    border-bottom: 1px solid #AAA;
+}
+#page-footer-td {
+    padding: 1rem;
+    text-align: center;
+    background-color: #AAA;
+    border-top: 1px solid #444;
+}
