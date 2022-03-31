@@ -1,2 +1,2 @@
-import { getAuth, createUserWithEmailAndPassword } from "./firebase_init_m.js";
+import { auth, createUserWithEmailAndPassword } from "./firebase_init_m.js";
 
