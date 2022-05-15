@@ -75,7 +75,7 @@ td {
     transform: translateY(-250px);
 }
 #signin-div>h1 {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 5rem;
     border: 7px solid black;
     background: white;
@@ -122,9 +122,9 @@ td {
     z-index: 200;
 }
 #lobby-title-div {
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 2rem;
     color: white;
-    font-family: 'Patrick Hand', cursive;
 }
 #lobby-party-div {
     height: 60px;
@@ -149,6 +149,13 @@ td {
     height: 50px;
     border-radius: 50px;
     background-color: #AAA;
+    overflow: hidden;
+    border: 1px solid #666;
+}
+#lobby-account-button-table .user-image-div > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 #lobby-background-div {
