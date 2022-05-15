@@ -127,7 +127,6 @@ td {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 2.2rem;
     color: white;
-    text-shadow: 0 0 15px white;
 }
 #lobby-party-div {
     height: 60px;
@@ -211,12 +210,12 @@ td {
 }
 
 
-.user-display-name-td {
+#lobby-account-button-table .user-display-name-td {
     font-size: 1.5rem;
     vertical-align: bottom;
     padding-left: 8px;
 }
-.user-username-td {
+#lobby-account-button-table .user-username-td {
     padding-left: 8px;
     color: #888;
     height: 0;
@@ -226,8 +225,35 @@ td {
     font-family: 'Megrim', cursive;
     position: absolute;
     width: 100%;
-    top: 12rem;
+    top: 8rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
+}
+
+.pink-text {
+    color: #ff71ce;
+    text-shadow: 0 0 0.5em #ff71ce, 0 0 0.6em #ff71ce;
+}
+.blue-text {
+    color: #01cdfe;
+    text-shadow: 0 0 0.5em #01cdfe, 0 0 0.6em #01cdfe;
+}
+.green-text {
+    color: #05ffa1;
+    text-shadow: 0 0 0.5em #05ffa1, 0 0 0.6em #05ffa1;
+}
+.purple-text {
+    color: #b967ff;
+    text-shadow: 0 0 0.5em #b967ff, 0 0 0.6em #b967ff;
+}
+.yellow-text {
+    color: #fffb96;
+    text-shadow: 0 0 0.5em #fffb96, 0 0 0.6em #fffb96;
+}
+
+
+
+.grey-color {
+    color: #a3a3a3;
 }
