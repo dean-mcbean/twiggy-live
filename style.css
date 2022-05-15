@@ -120,11 +120,14 @@ td {
     top: 0;
     left: 0;
     z-index: 200;
+    background-color: #1B1B1B;
+    border-bottom: 1px solid #303030;
 }
 #lobby-title-div {
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: white;
+    text-shadow: 0 0 15px white;
 }
 #lobby-party-div {
     height: 60px;
@@ -133,16 +136,13 @@ td {
     text-align: center;
     border-radius: 30px;
 }
-#lobby-party-div .empty-party-text-div {
-    margin-top: 16px;
-    color: #666;
-}
 
-#lobby-account-button-div {
 
-}
 #lobby-account-button-table {
-    border-spacing: 10px;
+    margin-left: 8px;
+    border-spacing: 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #lobby-account-button-table .user-image-div {
     width: 50px;
@@ -179,6 +179,11 @@ td {
 }
 #lobby-middle-div {
     z-index: 0;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 #lobby-left-div {
     z-index: 100;
@@ -203,4 +208,26 @@ td {
     border-radius: 10px;
     border: 1px solid #2e2e2e;
     background-color: #222;
+}
+
+
+.user-display-name-td {
+    font-size: 1.5rem;
+    vertical-align: bottom;
+    padding-left: 8px;
+}
+.user-username-td {
+    padding-left: 8px;
+    color: #888;
+    height: 0;
+}
+
+#lobby-welcome-sign {
+    font-family: 'Megrim', cursive;
+    position: absolute;
+    width: 100%;
+    top: 12rem;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
 }
