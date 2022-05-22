@@ -8,12 +8,18 @@
         <link rel="stylesheet" href="style.css">
 
         <!-- FONTS -->
+        <!-- 
+            Josefin Sans (Circular Sans)
+            Megrim (Neon Sign Font)
+            Oleo Script Swash Caps (Cursive Logo Font)
+            Inter (Standard Sans)
+        -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Megrim&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Megrim&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
@@ -106,10 +112,10 @@
             <div id="profile-form-div">
                 <div><h1>Set up your profile</h1></div>
                 <div style="width:100%;"><h2>Display Name</h2></div>
-                <div style="width:100%;" class="display-name-warning">Must be more than 3 letters! Cannot end on a space.</div>
+                <div style="width:100%;" class="display-name-warning">Between 3 and 20 characters, cannot end on a space.</div>
                 <div style="width:100%;text-align: center;"><input type="text" class="display-name-input" name="display-name-input"></div>
                 <div style="width:100%;"><h2>Username (you cannot change this)</h2></div>
-                <div style="width:100%;" class="username-warning">Must be more than 3 letters!</div>
+                <div style="width:100%;" class="username-warning">Between 3 and 20 characters.</div>
                 <div style="width:100%;text-align: center;"><input type="text" class="username-input" name="username-input"></div>
                 <div class="submit-button">Submit</div>
             </div>
