@@ -33,14 +33,14 @@
                                     <table id="lobby-account-button-table">
                                         <tr>
                                             <td rowspan="2" class="user-image-td">
-                                                <div class="user-image-div"></div>
+                                                <div class="user-image-div auto-user-image"></div>
                                             </td>
-                                            <td class="user-display-name-td">
+                                            <td class="user-display-name-td auto-user-display-name">
 
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="user-username-td">
+                                            <td class="user-username-td auto-user-username">
 
                                             </td>
                                         </tr>
@@ -85,7 +85,20 @@
             </table>
             <div id="profile-sidebar-overlay">
                 <div id="profile-sidebar">
-    
+                    <div id="profile-sidebar-flex">
+                        <div class="auto-user-image"></div>
+                        <div class="auto-user-display-name"></div>
+                        <div class="auto-user-username"></div>
+                        <div class="separator"></div>
+                        <div class="setting">
+                            <div>
+                                <label for="profile-requests-checkbox">Open to Friend Requests</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="profile-requests-checkbox" name="profile-requests-checkbox" value="Bike">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
