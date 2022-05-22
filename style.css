@@ -343,3 +343,27 @@ td {
     text-align: center;
     display: none;
 }
+
+
+#profile-sidebar {
+    position: absolute;
+    background-color: #181818;
+    border-right: 1px solid #252525;
+    height: 100%;
+    width: 0px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out;
+}
+
+#profile-sidebar-overlay {
+    z-index: 250;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0000009e;
+    display: none;
+}
