@@ -408,11 +408,18 @@ td {
     font-size: 1.5rem;
     color: #6a6a6a;
 }
-#profile-sidebar-flex .setting {
-    font-family: Inter, sans-serif;
-}
 #profile-sidebar-flex .separator {
     width: 500px;
-    margin: 40px 0;
+    margin: 100px 0 30px 0;
     border-top: 1px solid #333;
+}
+#profile-sidebar-flex .setting {
+    font-family: Inter, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 50px;
+    box-sizing: border-box;
 }
