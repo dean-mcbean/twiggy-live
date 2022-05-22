@@ -213,15 +213,26 @@ td {
 }
 
 
+#lobby-account-button-div {
+    padding: 5px 30px 5px 0;
+    border-radius: 100px;
+    transition: background-color 0.06s ease-in-out;
+    cursor: pointer;
+}
+#lobby-account-button-div:hover {
+    background-color: #444;
+}
+
+
 #lobby-account-button-table .user-display-name-td {
     font-size: 1.5rem;
     vertical-align: bottom;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 #lobby-account-button-table .user-username-td {
-    padding-left: 8px;
+    padding-left: 10px;
     color: #888;
-    height: 0;
+    vertical-align: top;
 }
 
 #lobby-welcome-sign {
