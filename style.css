@@ -356,17 +356,6 @@ td {
     overflow-y: auto;
 }
 
-#profile-sidebar-flex {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 #profile-sidebar-overlay {
     z-index: 250;
     position: absolute;
@@ -376,4 +365,26 @@ td {
     width: 100%;
     background-color: #0000009e;
     display: none;
+}
+
+#profile-sidebar-flex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+#profile-sidebar-flex .auto-user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    overflow: hidden;
+    padding: 3px;
+    border: 3px solid #666;
+    cursor: pointer;
 }
